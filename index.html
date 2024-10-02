@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bán Cốc Đơn Giản</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Shop Bán Cốc</h1>
+    </header>
+
+    <section id="products">
+        <h2>Cốc Thủy Tinh Sang Trọng</h2>
+        <img src="coc.jpeg" alt="Cốc Thủy Tinh" width="300">
+        <p>Giá: 150,000 VND</p>
+        <button onclick="addToCart('Cốc Thủy Tinh', 150000)">Thêm vào giỏ</button>
+    </section>
+
+    <section id="cart">
+        <h2>Giỏ Hàng</h2>
+        <div id="cart-items"></div>
+        <p>Tổng Cộng: <span id="total-price">0</span> VND</p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
